@@ -499,13 +499,4 @@ function buildCancelPage(type, message) {
 </html>`;
 }
 
-// ─────────────────────────────────────────────
-// Start server
-// ─────────────────────────────────────────────
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`\n🦷 Dental Booking Server corriendo en http://localhost:${PORT}`);
-  console.log('─────────────────────────────────────────────');
-  console.log('Verifica que tu archivo .env esté configurado');
-  console.log('─────────────────────────────────────────────\n');
-});
+module.exports = app;

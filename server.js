@@ -509,3 +509,5 @@ app.listen(PORT, () => {
   console.log('Verifica que tu archivo .env esté configurado');
   console.log('─────────────────────────────────────────────\n');
 });
+
+module.exports = app;

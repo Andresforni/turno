@@ -1,0 +1,19 @@
+{
+  "name": "dental-booking",
+  "version": "1.0.0",
+  "description": "Sistema de reserva de citas para dentista",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "nodemailer": "^6.9.7",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0"
+  }
+}
